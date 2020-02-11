@@ -26,9 +26,9 @@
 
                 $_SESSION["id"] = $row["id"];
                 if($row["status"] == 'U'){
-                    header("location: userpage.php");
+                    header("location: usermenu.html");
                 }else{
-                    header("location: additem.php");
+                    header("location: additem.html");
                 }
 
             }else{

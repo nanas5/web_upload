@@ -16,11 +16,12 @@
       <h2>Register</h2>
     <img class="card-img-top" src="" alt="">
     <div class="card-body">
-      <form action="user.php" method="post" enctype="multipart/form-data">
-        Username<input type="text" name="uname" placeholder="Userame" class="form-control w-75 mx-auto"><br>
-        Password<input type="password" name="pass" placeholder="Password" class="form-control w-75 mx-auto"><br>
-        Last Name<input type="text" name="lname" placeholder="Last Name" class="form-control w-75 mx-auto"><br>
-        First Name<input type="text" name="fname" placeholder="First Name" class="form-control w-75 mx-auto"><br>
+      <form action="useraction.php" method="post" enctype="multipart/form-data">
+        Username<input type="text" name="uname" placeholder="Userame" class="form-control w-75 mx-auto" required><br>
+        Last Name<input type="text" name="lname" placeholder="Last Name" class="form-control w-75 mx-auto" required><br>
+        First Name<input type="text" name="fname" placeholder="First Name" class="form-control w-75 mx-auto" required><br>
+        Password<input type="password" name="pass" placeholder="Password" class="form-control w-75 mx-auto" required><br>
+        Comfirm Password<input type="password" name="confirmPassword" placeholder="Comfirm Password" class="form-control w-75 mx-auto" required>
          <button type="submit" name="btnLogin" class="btn btn-success btn-sm ">Submit</button><br>
         <p class="text-left">You already <a href="login.html">Member</a>...</p>
        
