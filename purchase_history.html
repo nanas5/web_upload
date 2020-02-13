@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <title>Perchase History</title>
+        </head>
+
+<body>
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
+        <a href="" class="navbar-brand">HERBAL TEA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#adminNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="adminNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Purchase History</a>
+                    <!-- view all -->
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Frequently Asked Questions</a>
+                    <!-- view all,edit,remove -->
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Contact Us</a>
+                    <!-- view all,edit,remove -->
+                </li>
+            </ul>
+    
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="profile.php" class="nav-link"></a>
+                </li>
+                <li class="nav-item">
+                    <a href="logout.php" class="nav-link">LOG OUT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br><br><br>
+    <main role="main">
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="pl-5">Purchase History</h1> 
+        </div>
+        <div class="container">
+            <table class="table table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th></th> <!-- leave this blank for profile photo -->
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th></th> <!-- I  for opperations (edit,delete) -->
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                        <tr>
+                            <td></td>
+                            <td>John</td>
+                            <td>Davis</td>
+                            <td>Johndavis</td>
+                            <td>
+                                <a href="edit_item.php?id=1" class="btn btn-outline-info btn-sm">Edit</a>
+                                <a href="remove_item.php?id=1" class="btn btn-outline-danger btn-sm">Remove</a>
+                            </td>
+                        </tr>
+                </tbody>
+            </table>
+        </div>
+</body>
+</html>
+
